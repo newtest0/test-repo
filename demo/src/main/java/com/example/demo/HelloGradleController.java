@@ -8,6 +8,7 @@ public class HelloGradleController {
 
 	@GetMapping
 	public String helloGradle() {
+		System.out.println("Hello");
 		return "Hello Gradle!";
 	}
 
